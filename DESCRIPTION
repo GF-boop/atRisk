@@ -13,11 +13,11 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
 Date: 2025-01-07
-Imports: stats, quantreg, sn, dfoptim, ggplot2, ggridges
+Imports: stats, quantreg, sn, dfoptim, ggplot2, ggridges, Rcpp, RcppGSL
+LinkingTo: Rcpp, RcppGSL
 Author: Quentin Lajaunie [aut, cre],
   Guillaume Flament [aut, ctb],
-  Christophe Hurlin [aut],
-  Souzan Kazemi [rev]
+  Christophe Hurlin [aut]
 Maintainer: Quentin Lajaunie <quentin_lajaunie@hotmail.fr>
 NeedsCompilation: no
 Packaged: 2025-01-14 18:06:08 UTC; quentin.lajaunie_ver
